@@ -1,4 +1,4 @@
-# Reddit
+# Calculated Field Takehome
 
 ## Table of Contents
 
@@ -15,16 +15,6 @@
  $ npm install
 ```
 
-## Genrate Reddit Token
-
-- to get a token, head to [https://www.reddit.com/prefs/apps](https://www.reddit.com/prefs/apps)
-
-- copy the .env.example, rename it .env and insert your bearer
-  token for reddit
-
-```sh
-
- REACT_APP_REDDIT_BEARER_TOKEN = "token goes here"
 
 ```
 
@@ -43,13 +33,14 @@ i have used:
 - reactJs
 - redux
 - @reduxjs/toolkit
-- babel
+- MUI
   **developent**
 - eslint
 
 ## todo
 
-- Highlight the upvote and downvote buttons
+- Refactor the codebase
+- Add function to remove input field
 
 ## Author
 
