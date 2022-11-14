@@ -40,7 +40,7 @@ export default function Front() {
                 required
                 id="outlined-required"
                 label="Label"
-                defaultValue="Survey"
+                defaultValue="Form Lable"
               />
             </TabPanel>
             <TabPanel value="2" sx={{ bgcolor: "#fff" }}>

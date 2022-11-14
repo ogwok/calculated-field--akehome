@@ -58,7 +58,7 @@ export default function PreviewBody({ value, lable, formula, id }) {
       });
       return eval(result.join(""));
     } catch {
-      return 400;
+      return "";
     }
   };
 
@@ -72,6 +72,7 @@ export default function PreviewBody({ value, lable, formula, id }) {
         <Box
           sx={{
             pl: 2,
+            pb: 2,
           }}
         >
           {formula ? (

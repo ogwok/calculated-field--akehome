@@ -20,7 +20,7 @@ export default function Title() {
           sx={{
             border: 1,
             borderColor: "#DDD",
-            pr: 21.7,
+            pr: 25.4,
             pl: 1,
             pt: 1,
             pb: 1,
@@ -32,25 +32,14 @@ export default function Title() {
           sx={{
             border: 1,
             borderColor: "#DDD",
-            pr: 21.6,
+            pr: 22.8,
             pl: 1,
             pt: 1,
             pb: 1,
           }}
         >
-          Value
+          Formula
         </Box>
-
-        <Box
-          sx={{
-            border: 1,
-            borderColor: "#DDD",
-            pr: 6,
-            pl: 1,
-            pt: 1,
-            pb: 1,
-          }}
-        ></Box>
       </Stack>
     </>
   );

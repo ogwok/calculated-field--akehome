@@ -104,29 +104,13 @@ export default function Survey() {
                   size="small"
                 />
               </Box>
-              <Box
-                sx={{
-                  border: 1,
-                  borderColor: "#DDD",
-                  pr: 6,
-                  pl: 1,
-                  pt: 1,
-                  pb: 1,
-                }}
-              ></Box>
             </Stack>
           </Box>
-          {/* <TextField
-            onChange={(event) => handleChange(event, id)}
-            id="outlined-basic"
-            label="Outlined"
-            variant="outlined"
-          /> */}
         </div>
       ))}
 
       <Button variant="contained" sx={{ mt: 2 }} onClick={addQuestions}>
-        Add Questions
+        Add TextField
       </Button>
     </div>
   );
